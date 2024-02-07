@@ -1,0 +1,17 @@
+#parent {
+    background-color: gray;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#child {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+#firstNameBtn{
+    padding: 10px 10px;
+}
+#lastNameBtn{
+    padding: 10px 10px;
+}

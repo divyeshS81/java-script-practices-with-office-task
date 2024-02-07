@@ -1,0 +1,17 @@
+h2{
+    color: brown;
+}
+#buttons{
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+}
+#like{
+    padding: 10px 10px;
+}
+#follow{
+    padding: 10px 10px;
+}
+#Subscribe{
+    padding: 10px 10px;
+}

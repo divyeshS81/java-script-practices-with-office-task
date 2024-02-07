@@ -1,0 +1,1 @@
+// the closures is a function with its lexical environment
