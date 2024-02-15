@@ -60,7 +60,7 @@ countValue.then(
 
 /*var p = new Promise(function (resolve, reject) {
       var x = 2 + 3;
-      if (x == 5)
+      if (x == 5) 
             resolve(" executed and resolved successfully");
       else
             reject("rejected");
@@ -70,3 +70,22 @@ p.then(function (fromResolve) {
 }).catch(function (fromReject) {
       document.write("Promise is " + fromReject);
 });  */
+
+
+
+/* function sumAsync (x,y){
+      console.log("1.sumAsync is executed");
+      const p = new Promise((resolve,reject)=>{
+            setTimeout(()=>{
+                  console.log("4. Resolving sumAsync's Promise with the result after 500ms");
+                  resolve(x + y);
+            },10000);
+            console.log("2. sumAsync Promise is initialized");
+      });
+      console.log("3. sumAsync has returned the promise");
+      return p;
+}
+
+sumAsync(5, 7).then((result)=>{
+      console.log("5. the result of the addition is:",result);
+}); */
